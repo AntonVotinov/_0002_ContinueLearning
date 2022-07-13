@@ -2,25 +2,29 @@ import java.util.Scanner;
 
 
 public class thirdDegree20220707 {
-    static void printError1(String s){
+    static void printError1(String s) {
         System.out.println(s);
     }
-    static void printError10(){
+
+    static void printError10() {
         System.out.println("Error");
     }
-    static void printError20(){
+
+    static void printError20() {
         System.out.println("Error 20");
     }
-        static long ninthDegree (long input) {
+
+    static long ninthDegree(long input) {
         long outputOfNinthDegree = (long) cube(cube(input));
         return outputOfNinthDegree;
     }
-    static long cube (long input) {
-        long outputCube = (long) Math.pow(input,3);
+
+    static long cube(long input) {
+        long outputCube = (long) Math.pow(input, 3);
         return outputCube;
     }
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
         do {
             Scanner sc = new Scanner(System.in);
             System.out.println("Write number to be in 9th degree:");
@@ -43,4 +47,8 @@ public class thirdDegree20220707 {
         }
         while (true);
     }
-        }
+}
+
+/*
+// save it, run it!
+Alex Lee*/
